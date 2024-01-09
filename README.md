@@ -4,7 +4,7 @@
 
 This project focuses on super-resolution, a process that enhances the quality of lower-resolution images using the Enhanced Super-Resolution Convolutional Neural Network (ESRCNN).It specifically targets images downscaled by a factor of two using bicubic interpolation, enhancing 64x64 pixel patches into higher quality 128x128 pixel patches. This version of ESRCNN includes two dropout layers for uncertainty quantification.
 
-**User Interaction:**
+## User Interaction:
 The main script (`main.py`) serves as the entry point for users, allowing them to provide an image via the command line. When you provide an image as input to our project, the following steps are performed:
 
 1. **Center Crop:**
