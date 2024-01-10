@@ -65,7 +65,7 @@ The main script (`main.py`) serves as the entry point for users, allowing them t
 
 2. **Running the Main Script**:
    - Activate the environment with `conda activate sr-env`.
-   - Run `main.py` and provide the absolute path to a PNG image when prompted.
+   - Run `python3 main.py` and provide the absolute path to a PNG image when prompted.
    - I have included some sample images in the Images folder you can use, just provide the path to that image when prompted.
     - If you decide to use your own image, make sure it is low-resolution and downscaled by a factor of 2 via bicubic resolution. I provide details on where you can download some of these in the Datasets section
    - The script processes the image, performs super-resolution, and saves outputs in the `output` directory.
